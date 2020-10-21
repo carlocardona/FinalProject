@@ -34,8 +34,8 @@ function Navbar() {
                     <div className='navbar-container container'>
                         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
                             <RiUserStarLine className='navbar-icon' />
-              Apollo
-            </Link>
+                            Apollo
+                        </Link>
                         <div className='menu-icon' onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
                         </div>
@@ -43,34 +43,31 @@ function Navbar() {
                             <li className='nav-item'>
                                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                                     Home
-                </Link>
+                                </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link
                                     to='/news'
                                     className='nav-links'
-                                    onClick={closeMobileMenu}
-                                >
+                                    onClick={closeMobileMenu}>
                                     News
-                </Link>
+                                </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link
                                     to='/getinvolved'
                                     className='nav-links'
-                                    onClick={closeMobileMenu}
-                                >
+                                    onClick={closeMobileMenu}>
                                     Get Involved
-                </Link>
+                                </Link>
                             </li>
                             <li className='nav-item'>
                                 <Link
                                     to='/signin'
                                     className='nav-links'
-                                    onClick={closeMobileMenu}
-                                >
+                                    onClick={closeMobileMenu}>
                                     Sign in
-                </Link>
+                                </Link>
                             </li>
                             <li className='nav-btn'>
                                 {button ? (
@@ -82,8 +79,7 @@ function Navbar() {
                                             <Button
                                                 buttonStyle='btn--outline'
                                                 buttonSize='btn--mobile'
-                                                onClick={closeMobileMenu}
-                                            >
+                                                onClick={closeMobileMenu}>
                                                 SIGN UP
                                              </Button>
                                         </Link>
